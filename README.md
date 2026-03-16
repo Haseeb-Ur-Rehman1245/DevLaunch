@@ -1,46 +1,77 @@
-DevLaunch – Developer Portfolio Builder
-DevLaunch is a modern web application that allows developers to quickly create and export professional portfolio websites without writing code.
+🚀 DevLaunch — Developer Portfolio Builder
 
-The platform provides a dynamic portfolio builder where users can enter their personal details, skills, and projects to instantly generate a clean portfolio layout.
 
-Key Features
+✨ Build a stunning developer portfolio in minutes — no coding required.
 
-Dynamic portfolio generation
+DevLaunch is a modern portfolio generator that allows developers to create and export beautiful portfolio websites instantly.
 
-Multiple portfolio templates (Minimal, Glass, GitHub style)
+Simply enter your details, skills, and projects — and DevLaunch dynamically generates a professional developer portfolio ready to deploy.
 
-GitHub repository import
+🌐 Live Demo
 
-Profile image upload
+🔗 Try it here:
+https://effervescent-capybara-fa7d9e.netlify.app/
 
-Drag-and-reorder project cards
+⚡ Features
 
-Light/Dark mode UI
+🔥 Dynamic Portfolio Builder
+Generate a full portfolio instantly with live preview.
 
-Export portfolio as HTML
+🎨 Multiple Portfolio Templates
 
-Download portfolio as ZIP
+Minimal Template
 
-JSON export support
+Glassmorphism Template
 
-AI-powered bio generator
+GitHub Style Template
 
-Simple portfolio analytics
+🌙 Dark / Light Mode
+Switch between modern themes.
 
-Responsive design for all devices
+📦 Export Options
+Download your portfolio as:
 
-Technologies Used
+HTML Website
+
+ZIP Package
+
+JSON Data
+
+🧠 AI Bio Generator
+Generate a professional developer bio instantly.
+
+📂 GitHub Project Import
+Automatically import your GitHub repositories.
+
+🖼 Profile Image Upload
+Preview your avatar in real time.
+
+📊 Portfolio Analytics
+Track how many portfolios you generated.
+
+📱 Fully Responsive
+Works perfectly on mobile, tablet, and desktop.
+
+🛠 Technologies Used
+
+💻 Frontend
 
 HTML5
 
 CSS3
 
-JavaScript (Vanilla JS)
+JavaScript
+
+⚙ Libraries
 
 GitHub API
 
-JSZip Library
+JSZip
 
-Use Case
+🎨 UI
 
-DevLaunch helps developers create professional portfolios quickly and easily, making it ideal for students, junior developers, and professionals looking to showcase their projects.
+Glassmorphism Design
+
+Responsive Layout
+
+Interactive Animations
