@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+<meta charset="UTF-8">
+<title>DevLaunch PRO</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>DevLaunch</h1>
+
+<div class="controls">
+
+<select id="templateSelector">
+<option value="minimal">Minimal</option>
+<option value="glass">Glass</option>
+<option value="github">GitHub</option>
+</select>
+
+<button id="generateBtn">Generate</button>
+<button id="downloadHTML">HTML</button>
+<button id="downloadZIP">ZIP</button>
+<button id="downloadJSON">JSON</button>
+<button id="aiGenerate">AI Bio</button>
+<button id="themeToggle">🌙</button>
+
+</div>
+
+</header>
+
+
+<div class="container">
+
+<div class="builder">
+
+<h2>Build Portfolio</h2>
+
+<input id="name" placeholder="Name">
+
+<textarea id="bio" placeholder="Bio"></textarea>
+
+<input id="skills" placeholder="Skills (comma separated)">
+
+<input id="githubUser" placeholder="GitHub Username">
+
+<input id="linkedin" placeholder="LinkedIn URL">
+
+<label>Profile Photo</label>
+<input type="file" id="avatar">
+
+<img id="avatarPreview" src="assets/avatar.png" class="avatarPreview">
+
+<button id="importGithub">Import GitHub Projects</button>
+
+<h3>Projects</h3>
+
+<div id="projects"></div>
+
+<button id="addProject">Add Project</button>
+
+</div>
+
+
+<div id="preview"></div>
+
+</div>
+
+<section class="analytics">
+
+<h2>Analytics</h2>
+
+<p>Portfolios Generated: <span id="portfolioCount">0</span></p>
+
+</section>
+
+
+<script src="js/templates.js"></script>
+<script src="js/app.js"></script>
+<script src="js/export.js"></script>
+<script src="js/github.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/analytics.js"></script>
+
+</body>
+</html>
