@@ -1,1 +1,168 @@
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:Inter,system-ui;
+}
 
+body{
+background:#0f172a;
+color:white;
+transition:.3s;
+}
+
+body.light{
+background:#f1f5f9;
+color:#111;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 40px;
+background:#020617;
+align-items:center;
+}
+
+body.light header{
+background:white;
+}
+
+/* CONTROLS */
+
+.controls{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
+
+button,select{
+padding:8px 14px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+background:#1e293b;
+color:white;
+}
+
+body.light button,
+body.light select{
+background:#e2e8f0;
+color:#111;
+}
+
+/* LAYOUT */
+
+.container{
+display:grid;
+grid-template-columns:420px 1fr;
+height:calc(100vh - 80px);
+}
+
+/* BUILDER */
+
+.builder{
+padding:25px;
+border-right:1px solid #1e293b;
+overflow:auto;
+}
+
+body.light .builder{
+border-right:1px solid #cbd5e1;
+}
+
+.builder input,
+.builder textarea{
+width:100%;
+margin:10px 0;
+padding:10px;
+border-radius:6px;
+border:none;
+background:#1e293b;
+color:white;
+}
+
+body.light .builder input,
+body.light .builder textarea{
+background:#e2e8f0;
+color:#111;
+}
+
+/* PREVIEW */
+
+#preview{
+padding:40px;
+overflow:auto;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+margin-bottom:30px;
+}
+
+.hero img{
+width:120px;
+height:120px;
+border-radius:50%;
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#1e293b;
+padding:6px 10px;
+border-radius:20px;
+}
+
+body.light .skill{
+background:#cbd5e1;
+}
+
+/* PROJECTS */
+
+.projects{
+margin-top:25px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.project{
+background:#1e293b;
+padding:15px;
+border-radius:10px;
+cursor:grab;
+}
+
+body.light .project{
+background:#e2e8f0;
+}
+
+/* ANALYTICS */
+
+.analytics{
+padding:20px 40px;
+border-top:1px solid #1e293b;
+}
+
+.avatarPreview{
+width:70px;
+border-radius:50%;
+margin-top:10px;
+}
+
+@media(max-width:900px){
+.container{
+grid-template-columns:1fr;
+}
+}
